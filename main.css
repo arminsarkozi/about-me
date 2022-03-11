@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Fredoka', sans-serif;
+    background: url('road-1072821_960_720.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.profile-card {
+    background-color: rgba(245, 245, 245, 0.685);
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    border-radius: 1%;
+    -moz-border-radius: 1%;
+    -webkit-border-raidus: 1%;
+}
+
+.profile-card:hover {
+    transform: scale(1.005);
+    transition: all 0.4s ease-in-out;
+}
+
+.profile-image {
+    width: 26%;
+    margin: 0 auto 0 auto;
+}
+
+.profile-image:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+img[src="bunny.png"] {
+    width: 100%;
+    background-color: rgb(155, 183, 235);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: relative;
+    top: -1em;
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 137, 228);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.me-data, .languages, .like, .my-studies, .projects, .my-profiles {
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.me-data, .my-studies, .projects,  .my-profiles {
+    text-align: center;
+}
+
+h1 {
+    font-size: 165%;
+}
+
+h2 {
+    margin: 4px auto 10px auto;
+    padding: 0.1%;
+    font-size: 136%;
+}
+
+.my-profiles {
+    font-size: 130%;
+}
+
+.me-data, .languages, .like, .my-studies, .projects {
+    margin: 9px 9px 9px 9px;
+}
+
+i {
+    color: cornflowerblue;
+    margin: 0 0 12px 0px;
+}
+
+.codeforces-icon {
+    width: 5.1%;
+}
+
+.valid-css {
+    position: absolute;
+    top: 98%;
+    left: 0.4%;
+}
