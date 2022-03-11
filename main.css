@@ -100,10 +100,11 @@ i {
 
 .codeforces-icon {
     width: 5.1%;
+    pointer-events: none;
 }
 
 .valid-css {
     position: absolute;
-    top: 98%;
+    top: 94%;
     left: 0.4%;
 }
