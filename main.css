@@ -16,6 +16,11 @@ body {
     background-size: cover;
 }
 
+:root {
+    --about-blue: rgb(107, 107, 207);
+    --light-about-blue: rgb(155, 183, 235);
+}
+
 .profile-card {
     background-color: rgba(245, 245, 245, 0.685);
     align-items: center;
@@ -44,7 +49,7 @@ body {
 
 img[src="bunny.png"] {
     width: 100%;
-    background-color: rgb(155, 183, 235);
+    background-color: var(--light-about-blue);
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -94,7 +99,7 @@ h2 {
 }
 
 i {
-    color: cornflowerblue;
+    color: var(--light-about-blue);
     margin: 0 0 12px 0px;
 }
 
@@ -107,4 +112,16 @@ i {
     position: absolute;
     top: 94%;
     left: 0.4%;
+}
+
+.copyright {
+    position: absolute;
+    top: 94%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.copyright p a{
+    color: var(--about-blue);
+    font-weight: bolder;
 }
