@@ -25,7 +25,7 @@ body {
     background-color: rgba(245, 245, 245, 0.685);
     align-items: center;
     justify-content: center;
-    max-width: 88vw;
+    max-width: 60%;
     border-radius: 1%;
     -moz-border-radius: 1%;
     -webkit-border-raidus: 1%;
@@ -103,7 +103,7 @@ i {
 }
 
 .codeforces-icon {
-    width: 1.8vw;
+    width: 1.36vw;
     pointer-events: none;
 }
 
