@@ -47,7 +47,7 @@ body {
 }
 
 img[src="bunny.png"] {
-    width: 100%;
+    width: 23vw;
     background-color: var(--light-about-blue);
     border-radius: 50%;
     -moz-border-radius: 50%;
