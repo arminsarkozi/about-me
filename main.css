@@ -25,6 +25,7 @@ body {
     background-color: rgba(245, 245, 245, 0.685);
     align-items: center;
     justify-content: center;
+    min-width: 40%;
     max-width: 60%;
     border-radius: 1%;
     -moz-border-radius: 1%;
@@ -47,7 +48,7 @@ body {
 }
 
 img[src="bunny.png"] {
-    width: 23vw;
+    width: 98%;
     background-color: var(--light-about-blue);
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -103,24 +104,25 @@ i {
 }
 
 .codeforces-icon {
-    width: 1.36vw;
+    width: 1em;
     pointer-events: none;
 }
 
 .valid-css {
     position: absolute;
-    top: 94%;
+    top: 99%;
     left: 0.4%;
+    cursor: pointer;
 }
 
 .copyright {
     position: absolute;
-    top: 94%;
+    top: 99%;
     text-align: center;
     font-weight: bold;
 }
 
-.copyright p a{
+.copyright p a {
     color: var(--about-blue);
     font-weight: bolder;
 }
