@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 500px;
-    max-width: calc(100vw - 80px);
+    max-width: calc(100vw - 40px);
     border-radius: 1%;
     -moz-border-radius: 1%;
     -webkit-border-raidus: 1%;
