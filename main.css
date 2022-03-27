@@ -108,18 +108,10 @@ i {
     pointer-events: none;
 }
 
-.valid-css {
-    position: absolute;
-    top: 99%;
-    left: 0.4%;
-    cursor: pointer;
-}
-
 .copyright {
-    position: absolute;
-    top: 99%;
     text-align: center;
     font-weight: bold;
+    margin: 10px 10px 20px 10px;
 }
 
 .copyright p a {
