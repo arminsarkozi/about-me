@@ -25,10 +25,7 @@ body {
     background-color: rgba(245, 245, 245, 0.685);
     align-items: center;
     justify-content: center;
-    min-width: 50vw;
-    max-width: 54vw;
-    min-height: 60vh;
-    max-height: 89vh;
+    max-width: calc(100vw - 80px);
     border-radius: 1%;
     -moz-border-radius: 1%;
     -webkit-border-raidus: 1%;
